@@ -2332,6 +2332,7 @@ StEntry StLabel.hint-text, .popup-menu .search-entry StLabel.hint-text {
 }
 
 /* Popovers/Menus */
+
 .popup-menu-boxpointer {
   -arrow-border-radius: 2px;
   -arrow-background-color: transparent;
@@ -2410,7 +2411,7 @@ StEntry StLabel.hint-text, .popup-menu .search-entry StLabel.hint-text {
 .popup-menu .popup-menu-item:focus,
 .popup-menu .popup-menu-item:hover,
 .popup-menu .popup-menu-item.selected {
-  color: white !important;
+  color: #A5A5A5 !important;
   background-color: #101010 !important;
   transition-duration: 0;
 }
@@ -2454,8 +2455,10 @@ StEntry StLabel.hint-text, .popup-menu .search-entry StLabel.hint-text {
   color: rgba(025, 025, 025, 0.7);
 }
 
+/* Icons Audio */
+
 .popup-menu .popup-inactive-menu-item {
-  color: rgba(025, 025, 025, 0.7);
+  color: #A5A5A5;
 }
 
 .popup-menu .popup-inactive-menu-item:insensitive {
